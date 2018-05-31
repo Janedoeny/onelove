@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang= "en">
+<!-- This is an example of an ordered and unordered list. This is the daycare where the names of the children are in a list. -->
+<head>
+	<title>Ordered and None Ordred List</title>
+
+	<style>
+
+	table,tr,td {border : 2px solid #9D8BA3;}
+
+
+	</style>
+</head>
+<body>
+<h1>Lollipop Daycare</h1>
+<h2>Class Attendance</h2>
+<h6>This is an example of an ordered list</h6> 
+<!-- By typing the attribute type = "A" you can change the list to numeric to alphebetical order and here are some other cool ways you can list your items
+
+type=”1”
+
+Numbers used to sequence the list (default)
+
+type=”A”
+
+Uppercase letters used to sequence the list
+
+type=”a”
+
+Lowercase letters used to sequence the list
+
+type=”I”
+
+Uppercase Roman Numerals used to sequence the list
+
+type=”i”
+
+Lowercase Roman Numerals used to sequence the list
+
+
+
+ -->
+
+<p>
+<ol type="I">
+<li>Joseph Nwachukwu</li>
+<li>Myla Jarret</li>
+<li>Albens Juste</li>
+ </p>
+ <!-- This is the list in numerical order -->
+ <p>
+<ol>
+<li>Joseph Nwachukwu</li>
+<li>Myla Jarret</li>
+<li>Albens Juste</li>
+
+</p>
+
+</ol>
+<!--  This is the lunch menu created which shows items with bullets. This is an unordered list which does not have alphebetical or numerical values but instead uses bullets. -->
+<h2>Lunch Menu</h2>
+<h6>This is an example of an unordered list</h6>
+<ul style= "list-style-type: square;">
+	<!-- Above is the type of style that can be used when create bullets. Instead of circle the bullets are square now.Below is a list of the different types of unordered list.
+
+
+list-style-type=”disc”
+
+Bullet or Filled Circle indicator (default)
+
+list-style-type=”square”
+
+Square indicator
+
+list-style-type=”circle”
+
+Hollow circle indicator (similar to disc, but without the inner fill)
+
+list-style-type=”none”
+
+No indicator 
+
+-->
+<li>Baked Macoroni and Cheese</li>
+<li>Milk</li>
+<li>Chicken</li>
+<li>Salad</li>
+
+</ul>
+
+<h2>Daily Activity</h2>
+<h6>This is an example of a defintion list</h6>
+<dl>
+  <dt>Building</dt>
+  <dd>The students helped one another build a house with blocks.</dd>
+  <dt>Music</dt>
+  <dd>The assistant Natti played the instruments as the children followed along and together sung nursey rhymes.</dd>
+  <dt>Color</dt>
+  <dd>The students played with different color Play Doe and cutters in which helps them develop cognitive skills in colors and shapes</dd>
+</dl>
+
+
+<table width ="100%">
+	
+	<caption>Contact Information</caption>
+	<tr bgcolor="9D8BA3">
+
+    </tr>
+
+	<!-- <tr> 
+		<th colospan="2">Name</th>
+		<th>Parent's Name</th>
+		<th>Phone Number</th>
+		
+
+	</tr> -->
+
+	<tr bgcolor = "grey">
+		<th>Child's Name</th>
+		<th>Parent's name</th>
+		<th>Phone Number</th>
+
+
+
+	</tr>
+
+	<tr>
+		<td>Joseph Nwachukwu</td>
+		<td>Joan Eugene(Mother)</td>
+		<td>917-977-1554</td>
+
+	</tr>
+
+	<tr>
+
+		<td>Myla Jarret</td>
+		<td>Tashima Purdie(Mother)</td>
+		<td>917-555-5555</td>
+
+	</tr>
+
+	<tr>
+		<td>Albens Juste</td>
+		<td>James Juste(Father)</td>
+		<td>347-555-5555</td>
+
+	</tr>
+
+
+
+
+</table>
+<!-- We went on W3Schools where we learned of different forms .Below incoropated  -->
+
+<p>At Lollipop Daycare, we take care of children...and families. Our curriculum has been designed with milestones in mind, with teachers who give your child the important skills they need in a convenient location that provides the schedule you need. Come talk to us about how we support your whole family with learning, love, and inspiration, and how our individualized curriculum works for the most important child — yours.</p>
+
+<h2>Child's Information</h2>
+
+<form>
+Child's First Name: <br>
+<input type="text" name = "firstname"><br> Child's Last Name:<br>
+<input type= "text"name="lastname">
+</form>
+
+<!-- This is a radio button input; user can only select one option -->
+<h2>Child's Gender</h2>
+<form>
+  <input type="radio" name="gender" value="male" checked> Boy<br>
+  <input type="radio" name="gender" value="female"> Girl<br>
+</form>
+
+
+<!-- This is the action attribute defines an action performed and input type submit defines the button to submit the form -->
+<h2>Parent's Information</h2>
+<form action="/action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Shawn"><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="White"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>
